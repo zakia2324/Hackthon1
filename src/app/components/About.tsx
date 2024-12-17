@@ -19,7 +19,7 @@ const About = () => {
 <div>
   <h1 className='text-center text-[60px] font-extrabold'>New Arrival</h1>
   <div className='image flex gap-4'>
-  <Image alt ="template2" className=' h-[220px] w-[320px]'src ={template2}/>
+  <Image alt ='template2' className=' h-[220px] w-[320px]'src ={template2}/>
   
   <Image alt='template3' className='h-[220px] w-[320px]' src={template3}/>
   
@@ -83,11 +83,11 @@ const About = () => {
     <h1 className='h-[58px] w-[654px] font-extrabold p-9 '>OUR HAPPY CUSTOMERS</h1> </div>
     <div className='grid grid-cols-4 gap-[20px] p-9 ml-[170px]' >
       <div className='bg-white border 1px border-dotted hover:bg-slate-400 h-[250px] w-[250px]'><h1 className='p-4'>Sarah M.<br/></h1><p className='text-[12px] p-2'>
-      I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.</p></div>
+      I am blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece Ihave bought has exceeded my expectations.</p></div>
       <div className='bg-white border-dotted 1px  hover:bg-slate-400 h-[250px] w-[250px]'><h1 className='p-4'>Alex.K</h1><p className='text-[12px] p-2'>
       Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.</p></div>
       <div className='bg-white border 1px border-dotted hover:bg-slate-400 h-[250px] w-[250px]'><h1 className='p-4'>James.L</h1><p className='text-[12px] p-2'>
-      As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.</p></div>
+      As someone who is always on the lookout for unique fashion pieces, Iam thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.</p></div>
       
     
 

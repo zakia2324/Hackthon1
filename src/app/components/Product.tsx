@@ -66,22 +66,22 @@ const Product = () => {
 
 <div className='grid grid-cols-2 gap-4 h-[640px] w-[846px] ml-[310px] p-4'>
   <div className='bg-white 1px solid border-dotted '>Samantha D.<br/>
-"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."
+I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It is become my favorite go-to shirt.
 Posted on August 14, 2023</div>
   <div className='bg-white 1px solid border-dotted '>Alex M.<br/>
-"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."
+The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I am quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.
 Posted on August 15, 2023</div>
   <div className='bg-white 1px solid border-dotted '>Ethan R.<br/>
-"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."
+This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designers touch in every aspect of this shirt.
 Posted on August 16, 2023</div>
   <div className='bg-white 1px solid border-dotted '>Olivia P.<br/>
-"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."
+As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It is evident that the designer poured their creativity into making this t-shirt stand out.
 Posted on August 17, 2023</div>
   <div className='bg-white 1px solid border-dotted '>Liam K.<br/>
-"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."
+This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designers skill. It is like wearing a piece of art that reflects my passion for both design and fashion.
 Posted on August 18, 2023</div>
   <div className='bg-white 1px solid border-dotted '>Ava H.<br/>
-"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter."
+I am not just wearing a t-shirt; I am wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter.
 Posted on August 19, 2023</div>
   </div>
   <div className='p-2 ml-[420px]   '>
