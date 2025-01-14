@@ -44,18 +44,20 @@ const product:Iproducts[] = [
 
 
 ]
-const star =[<IoStarSharp key={1}/>,<IoStarSharp key={2}/>,<IoStarSharp key={3}/>,<IoStarSharp key={4}/>,<IoStarSharp key={4}/>]
+const star =[<IoStarSharp key={1}/>,<IoStarSharp key={2}/>,<IoStarSharp key={3} />,<IoStarSharp key={4}/>,<IoStarSharp key={5} />]
 
-const Tshirts= () => {
+const Top_Sell = () => {
 
   return (
     <div className="w-full h-full sm:h-[500px] mt-10">
-      <h1 className="text-3xl md:text-4xl font-bold text-center">You Might Also Like</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-center">Top selling</h1>
       <div className="flex flex-col md:flex-row justify-center items-center md:justify-between px-8 mt-10 ">
         {
             product.map((data)=>{
                 return(
+                    
                     <div key={data.id}>
+
                         <Link href={`/Products/${data.id}`}>
                         <div className="w-[230px] h-[200px] bg-[#F0EEED] rounded-[20px]">
                         <Image src={data.img_url} alt={data.title} 
@@ -68,7 +70,8 @@ const Tshirts= () => {
                         {star.map((icon,index)=>(
                             <span key={index}>{icon}</span>
             ))}
-            </div>
+
+         </div>
                         <p className="font-bold mt-1">{data.price}<span className="text-gray-400 font-bold line-through">{data.oldprice}</span></p>
                         
                         {/* <p>{data.oldprice}</p> */}
@@ -82,4 +85,4 @@ const Tshirts= () => {
   )
 }
 
-export default Tshirts
+export default Top_Sell

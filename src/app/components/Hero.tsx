@@ -4,7 +4,7 @@ import template1 from '../../../public/template1.jpg';
 
 const Hero = () => {
   return (
-    <div className='flex justify-between items-center p-12'>
+    <div className=' mx-w-screen-2xl mx-auto flex md:justify-between space-x-4 items-center p-12 flex-wrap'>
       <div className='content'>
 <p className='text-[50px] font-extrabold p-10'>FIND CLOTHES<br/> THAT MATCHES <br/>YOUT STYLE</p>
 <p className='text-[10px] p-4 pl-8'>
