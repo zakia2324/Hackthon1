@@ -15,6 +15,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
+import { NavigationMenuDemo } from "@/app/components/NavigationMenu";
 
 const SHEET_SIDES = [ "left"] as const
 
@@ -35,8 +36,8 @@ export function SheetSide() {
               <SheetTitle>Shop.Co</SheetTitle>
               
             </SheetHeader>
-<div className=" grid-cols-1 gap-y-4">
-           < div className=' md:block '><Link href={""}>shop</Link></div>
+<div className=" grid grid-cols-1 gap-y-4">
+           < div className=' md:block '><Link href={""}><NavigationMenuDemo/></Link></div>
 <div className='md:block'><Link href={""}>on sale</Link></div>
 <div className=' md:block'><Link href={""}>new arrivals</Link></div>
 <div className=' md:block'><Link href={""}>brands</Link></div>

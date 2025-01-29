@@ -47,7 +47,7 @@ import { Button } from "@/components/ui/button"
         </div>
       </Accordion>
       <div className="flex justify-center items-center">
-      <Button className="w-[90%] px-5">Apply NOw</Button>
+      <Button title="open Dialog"className="w-[90%] px-5">Apply NOw</Button>
       </div>
       </div>
       

@@ -9,7 +9,7 @@ const Hero = () => {
 <p className='text-[50px] font-extrabold p-10'>FIND CLOTHES<br/> THAT MATCHES <br/>YOUT STYLE</p>
 <p className='text-[10px] p-4 pl-8'>
 Browse through our diverse range of meticulously crafted garments, designed<br/> to bring out your individuality and cater to your sense of style.</p>
-<button className='2px border solid bg-black p-2 h-10 w-60 rounded-full text-white'>shop now</button>
+<button title ="open Dialog" className='2px border solid bg-black p-2 h-10 w-60 rounded-full text-white'>shop now</button>
       </div>
       <div className='image'>
         

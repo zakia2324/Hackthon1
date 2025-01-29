@@ -35,7 +35,7 @@ const product:Iproducts[] = [
 },
 
 {
-    title: "FADED SKINNY JEANS",
+    title: "FADED SKINNY JEANS",    
     id: 4,
     price: "$210",
     img_url: "/template9.png",
@@ -44,7 +44,7 @@ const product:Iproducts[] = [
 
 
 ]
-const star =[<IoStarSharp key={1}/>,<IoStarSharp key={2}/>,<IoStarSharp key={3}/>,<IoStarSharp key={4}/>,<IoStarSharp key={4}/>]
+const star =[<IoStarSharp key={1}/>,<IoStarSharp key={2}/>,<IoStarSharp key={3}/>,<IoStarSharp key={4}/>,<IoStarSharp key={5}/>]
 
 const Tshirts= () => {
 

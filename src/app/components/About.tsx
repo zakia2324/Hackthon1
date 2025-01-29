@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div>
 <div>
-  <h1 className='text-center text-[60px] font-extrabold flex-wrap flex-col md:flex-row'>New Arrival</h1>
+  <h1 className='text-center text-[60px] font-extrabold flex-wrap flex-col md:flex-row '>New Arrival</h1>
   <div className='image flex gap-4 flex-wrap sm:640'>
   <Image alt ='template2' className=' h-[220px] w-[320px]'src ={template2}/>
   

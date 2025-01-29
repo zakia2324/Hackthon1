@@ -9,6 +9,8 @@ const star =[<IoStarSharp key={1}/>,<IoStarSharp key={2}/>,<IoStarSharp key={3}/
 import AllReview from "@/components/allreviews";
 import Product from "@/app/components/Product";
 import { BreadcrumbDemo } from "@/components/Breadcrump";
+import Tshirts from "@/app/components/Product";
+
 interface Iproducts{ 
 title:string,
 price:string,
@@ -69,9 +71,9 @@ const product:Iproducts[] = [
 export default function Pro_Detail(){
 const params = useParams();
 
-    const id= params.id
+    const id = params.id
 
-    const item =product.find((item)=>item.id===Number(id))
+    const item = product.find((item)=>item.id===Number(id))
 
     if (!item){
 
@@ -147,6 +149,7 @@ return <h1>Product not found</h1>
 
     
         <AllReview/>
+        <Tshirts/>
         <Product/>
         
           </>
